@@ -1,0 +1,98 @@
+body {
+    background-color: green;
+}
+
+.ttt-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.ttt {
+   
+    height: auto;
+
+}
+
+th, td {
+border: 2px solid white;
+border-collapse:collapse;
+width: 120px;
+height:120px;
+text-align: center;
+
+}
+
+.first-box {
+    border-top: none;
+    border-left: none;
+}
+
+.second-box {
+    border-top: none;
+}
+
+.third-box {
+    border-top: none;
+    border-right: none;
+}
+
+.fourth-box {
+    border-left: none;
+}
+
+.sixth-box {
+    border-right: none;
+}
+
+.seventh-box {
+    border-left: none;
+    border-bottom: none;
+}
+
+.eighth-box {
+    border-bottom: none;
+}
+
+.ninth-box {
+
+    border-bottom: none;
+    border-right: none;
+}
+
+.zeros {
+
+border: none;
+background-color: green;
+color:aqua;
+font-size: 65px;
+font-weight:bold;
+}
+
+.times {
+border: none;
+background-color: green;
+color:greenyellow;
+font-size: 100px;
+}
+
+@media (max-width: 420px) {
+    element.style {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .ttt-container {
+
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+        
+    }
+
+
+}
