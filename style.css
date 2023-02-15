@@ -94,5 +94,9 @@ font-size: 100px;
         
     }
 
+}
 
+button {
+background-color: green;
+border: none;
 }
