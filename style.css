@@ -1,102 +1,166 @@
-body {
-    background-color: green;
+.welcome {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .welcome2 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  text-align: center;
+}
+
+.download-botton {
+  margin: 1.5% 2% 0;
+}
+
+.center-botton {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#light-button:hover {
+  color: black;
+  background-color: white;
+} 
+
+#dark-button:hover {
+  color: black;
+  background-color: white;
 }
 
 .ttt-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  cursor:pointer;
+  margin-bottom: 45px;
+}
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 150px;
+.ttt-container-players {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  cursor:pointer;
 }
 
 .ttt {
-   
-    height: auto;
-
+  height: auto;
 }
 
 th, td {
-border: 2px solid white;
+border: 1px solid black;
 border-collapse:collapse;
 width: 120px;
 height:120px;
 text-align: center;
-
 }
 
 .first-box {
-    border-top: none;
-    border-left: none;
+  border-top: none;
+  border-left: none;
 }
 
 .second-box {
-    border-top: none;
+  border-top: none;
 }
 
 .third-box {
-    border-top: none;
-    border-right: none;
+  border-top: none;
+  border-right: none;
 }
 
 .fourth-box {
-    border-left: none;
+  border-left: none;
 }
 
 .sixth-box {
-    border-right: none;
+  border-right: none;
 }
 
 .seventh-box {
-    border-left: none;
-    border-bottom: none;
+  border-left: none;
+  border-bottom: none;
 }
 
 .eighth-box {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .ninth-box {
 
-    border-bottom: none;
-    border-right: none;
-}
-
-.zeros {
-
-border: none;
-background-color: green;
-color:aqua;
-font-size: 65px;
-font-weight:bold;
+  border-bottom: none;
+  border-right: none;
 }
 
 .times {
-border: none;
-background-color: green;
-color:greenyellow;
-font-size: 100px;
+color:white;
+font-size: 60px;
+font-weight:bold;
 }
+
 
 @media (max-width: 420px) {
-    element.style {
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    .ttt-container {
-
-        justify-content: center;
-        align-items: center;
-        margin-top: 150px;
-        
-    }
+     
 
 }
 
-button {
-background-color: green;
-border: none;
-}
+
+
+ /* Media query section for Tablet and Mobile viewport */
+@media (max-width: 1088px) {
+    
+  element.style {
+    margin: 100px;
+ }
+
+ .ttt-container {
+
+     justify-content: center;
+     align-items: center;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     
+ }
+
+ th, td {
+     border: 1px solid black;
+     border-collapse:collapse;
+     width: 90px;
+     height: 105px;
+     text-align: center;
+     }
+     .download-botton {
+       margin:10px;
+     }
+     .welcome {
+       font-size: 1.5rem;
+       line-height: 1.5;
+       font-weight: 700;
+       margin-top: 20px;
+       margin-left: 10px;
+       margin-right: 10px;
+     }
+   
+     .welcome2 {
+       font-size: 1.2rem;
+       font-weight: 500;
+       text-align: center;
+     }
+  }
+   
+ p {
+  font-size: 1.3rem;
+  text-align: center;
+  color:black;
+ }
+ 
+ em {
+  font-weight: bold;
+ }
